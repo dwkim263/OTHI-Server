@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE tool SYSTEM "tool.dtd"> -->
+<tools>
+	<tool name="Fishing rod" file="sprites/items/tool/fishing_rod.png"/>
+	<tool name="Gold pan" file="sprites/items/tool/gold_pan.png"/>
+	<tool name="Pick" file="sprites/items/tool/pick.png"/>
+	<tool name="Shovel" file="sprites/items/tool/shovel.png"/>
+</tools>

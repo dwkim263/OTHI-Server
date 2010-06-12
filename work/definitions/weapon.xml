@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE weapons SYSTEM "weapons.dtd"> -->
+<weapons>
+	<weapon name="Assassin dagger" file="sprites/items/sword/assassin_dagger.png"/>
+	<weapon name="Biting sword" file="sprites/items/sword/biting_sword.png"/>
+	<weapon name="Black sword" file="sprites/items/sword/black_sword.png"/>
+	<weapon name="Blooddrinker" file="sprites/items/sword/blooddrinker.png"/>
+	<weapon name="Bread knife" file="sprites/items/sword/bread_knife.png"/>
+	<weapon name="Broadsword" file="sprites/items/sword/broadsword.png"/>
+	<weapon name="Buster" file="sprites/items/sword/buster.png"/>
+	<weapon name="Chaos sword" file="sprites/items/sword/chaos_sword.png"/>
+	<weapon name="Claymore" file="sprites/items/sword/claymore.png"/>
+	<weapon name="Dagger" file="sprites/items/sword/dagger.png"/>
+	<weapon name="Dark dagger" file="sprites/items/sword/dark_dagger.png"/>
+	<weapon name="Demon fire sword" file="sprites/items/sword/demon_fire_sword.png"/>
+	<weapon name="Devilknights clan sword" file="sprites/items/sword/devilknights_clan_sword"/>
+	<weapon name="Elvish sword" file="sprites/items/sword/elvish_sword.png"/>
+	<weapon name="Fire sword" file="sprites/items/sword/fire_sword.png"/>
+	<weapon name="Golden orc sword" file="sprites/items/sword/golden_orc_sword.png"/>
+	<weapon name="Great sword" file="sprites/items/sword/great_sword.png"/>
+	<weapon name="Ice sword" file="sprites/items/sword/ice_sword.png"/>
+	<weapon name="Katana" file="sprites/items/sword/katana.png"/>
+	<weapon name="Kilij" file="sprites/items/sword/kilij.png"/>
+	<weapon name="Knife" file="sprites/items/sword/knife.png"/>
+	<weapon name="Left hand sword" file="sprites/items/sword/l_hand_sword.png"/>
+	<weapon name="Magic dagger" file="sprites/items/sword/magic_dagger.png"/>
+	<weapon name="Magic sword" file="sprites/items/sword/magic_sword.png"/>
+	<weapon name="Obsidian knife" file="sprites/items/sword/obsidian_knife.png"/>
+	<weapon name="Orcish sword" file="sprites/items/sword/orcish_sword.png"/>
+	<weapon name="Orc sword" file="sprites/items/sword/orc_sword.png"/>
+	<weapon name="Right hand sword" file="sprites/items/sword/r_hand_sword.png"/>
+	<weapon name="Scimitar" file="sprites/items/sword/scimitar.png"/>
+	<weapon name="Short sword" file="sprites/items/sword/short_sword.png"/>
+	<weapon name="Soul dagger" file="sprites/items/sword/soul_dagger.png"/>
+	<weapon name="Sword" file="sprites/items/sword/sword.png"/>
+	<weapon name="Vampire sword" file="sprites/items/sword/vampire_sword.png"/>
+</weapons>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+    
+ <!--  regentime by second -->    
+<food name="apple" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Apple" file="sprites/items/food/apple.png">
+</food>			
+<food name="arctic_char" attraction="125" regentime="60" class="othi.thg.server.entities.foods.ArcticChar" file="sprites/items/food/arctic_char.png">	
+</food>	
+<food name="baguette" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Baguette" file="sprites/items/food/baguette.png">
+</food>	
+<food name="broccoli" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Broccoli" file="sprites/items/food/broccoli.png">
+</food>
+<food name="button_mushroom" attraction="125" regentime="60" class="othi.thg.server.entities.foods.ButtonMushroom" file="sprites/items/food/button_mushroom.png">
+</food>		
+<food name="carrot" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Carrot" file="sprites/items/food/carrot.png">
+</food>
+<food name="cauliflower" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Cauliflower" file="sprites/items/food/cauliflower.png">
+</food>
+<food name="cheese" attraction="125" regentime="30" class="othi.thg.server.entities.foods.Cheese" file="sprites/items/food/cheese.png">
+</food>
+<food name="cherry" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Cherry" file="sprites/items/food/cherry.png">
+</food>
+<food name="chinese_cabbage" attraction="125" regentime="60" class="othi.thg.server.entities.foods.ChineseCabbage" file="sprites/items/food/chinese-cabbage.png">
+</food>
+<food name="clown-fish" attraction="125" regentime="60" class="othi.thg.server.entities.foods.ClownFish" file="sprites/items/food/clown-fish.png">
+</food>
+<food name="coconut" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Coconut" file="sprites/items/food/coconut.png">
+</food>
+<food name="cod" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Cod" file="sprites/items/food/cod.png">
+</food>
+<food name="collard" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Collard" file="sprites/items/food/collard.png">
+</food>
+<food name="courgette" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Courgette" file="sprites/items/food/courgette.png">
+</food>
+<food name="easter_egg" attraction="125" regentime="60" class="othi.thg.server.entities.foods.EasterEgg" file="sprites/items/food/easter_egg.png">
+</food>
+<food name="fishpie" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Fishpie" file="sprites/items/food/fishpie.png">
+</food>
+<food name="ham" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Ham" file="sprites/items/food/ham.png">
+</food>
+<food name="leek" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Leek" file="sprites/items/food/leek.png">
+</food>
+<food name="mackerel" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Mackerel" file="sprites/items/food/mackerel.png">
+</food>
+<food name="meat" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Meat" file="sprites/items/food/meat.png">
+</food>
+<food name="onion" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Onion" file="sprites/items/food/onion.png">
+</food>
+<food name="perch" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Perch" file="sprites/items/food/perch.png">
+</food>
+<food name="piesmall" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Piesmall" file="sprites/items/food/piesmall.png">
+</food>
+<food name="porcini" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Porcini" file="sprites/items/food/porcini.png">
+</food>
+<food name="pumpkin" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Pumpkin" file="sprites/items/food/pumpkin.png">
+</food>
+<food name="real_corn" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Real_corn" file="sprites/items/food/real_corn.png">
+</food>
+<food name="red_lionfish" attraction="125" regentime="60" class="othi.thg.server.entities.foods.RedLionfish" file="sprites/items/food/red-lionfish.png">
+</food>
+<food name="roach" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Roach" file="sprites/items/food/roach.png">
+</food>
+<food name="salad" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Salad" file="sprites/items/food/salad.png">
+</food>
+<food name="sandwich" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Sandwich" file="sprites/items/food/sandwich.png">	
+</food>
+<food name="spinach" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Spinach" file="sprites/items/food/spinach.png">
+</food>
+<food name="surgeonfish" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Surgeonfish" file="sprites/items/food/surgeonfish.png">
+</food>
+<food name="toadstool" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Toadstool" file="sprites/items/food/toadstool.png">
+</food>
+<food name="tomato" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Tomato" file="sprites/items/food/tomato.png">
+</food>
+<food name="trout" attraction="125" regentime="60" class="othi.thg.server.entities.foods.Trout" file="sprites/items/food/trout.png">
+</food>
+<food name="tuna_sandwich" attraction="125" regentime="60" class="othi.thg.server.entities.foods.TunaSandwich" file="sprites/items/food/tuna_sandwich.png">
+</food>
+</foods>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE places SYSTEM "places.dtd"> -->
+<!--      examples
+    <npc name="Boy" x="12" y="18" class="othi.thg.server.entities.npcs.network.townhall.BoyNPC" />
+    <npc name="Mayor" x="13" y="2"  class="othi.thg.server.entities.npcs.network.townhall.MayorNPC" />
+
+    <treasure name="Box 9" x="24" y="38"/>
+    <treasure name="Box 10" x="22" y="38"/>
+    <treasure name="Box 11" x="20" y="38"/>
+    <treasure name="Box 12" x="18" y="38"/>
+-->
+<places>
+ <place name="math_5_1_village" file="math5/level_1/math5_village.tmx">
+    <npc x="3" y="11" name="Man_000" imgRef="man_000_npc" speed="0.1" direction="SOUTH">
+         <path sx="4" sy="10" dx="8" dy="10"/>
+         <path sx="8" sy="10" dx="12" dy="11"/>
+         <path sx="12" sy="11" dx="8" dy="10"/>
+         <path sx="8" sy="10" dx="4" dy="10"/>
+    </npc>
+    <npc x="29" y="12" name="Woman_003" imgRef="woman_003_npc" speed="0.1" direction="SOUTH">
+         <path sx="29" sy="12" dx="29" dy="16"/>
+         <path sx="29" sy="16" dx="28" dy="19"/>
+         <path sx="28" sy="19" dx="27" dy="20"/>
+         <path sx="27" sy="20" dx="27" dy="23"/>
+         <path sx="27" sy="23" dx="29" dy="12"/>
+    </npc>
+    <npc x="14" y="48" name="Man_002" imgRef="man_002_npc" speed="0.1" direction="SOUTH">
+         <path sx="14" sy="48" dx="21" dy="48"/>
+         <path sx="21" sy="48" dx="22" dy="44"/>
+         <path sx="22" sy="44" dx="22" dy="48"/>
+         <path sx="22" sy="48" dx="14" dy="48"/>
+    </npc>
+    <npc x="11" y="30" name="Woman_007" imgRef="woman_007_npc" speed="0.1" direction="SOUTH">
+         <path sx="11" sy="30" dx="13" dy="31"/>
+         <path sx="13" sy="31" dx="14" dy="32"/>
+         <path sx="14" sy="32" dx="16" dy="33"/>
+         <path sx="16" sy="33" dx="14" dy="32"/>
+         <path sx="14" sy="32" dx="13" dy="31"/>
+         <path sx="13" sy="31" dx="11" dy="30"/>
+    </npc>
+    <npc x="51" y="11" name="Blacksmith" imgRef="blacksmithnpc" speed="0.1" direction="SOUTH">
+         <path sx="51" sy="11" dx="58" dy="11"/>
+         <path sx="58" sy="11" dx="58" dy="6"/>
+         <path sx="58" sy="6" dx="51" dy="11"/>
+    </npc>
+    <npc x="36" y="23" name="Kid1" imgRef="kid1npc" speed="0.1" direction="WEST">
+         <path sx="36" sy="23" dx="54" dy="24"/>
+         <path sx="54" sy="24" dx="36" dy="23"/>
+    </npc>
+     <npc x="36" y="25" name="Kid2" imgRef="kid2npc" speed="0.1" direction="WEST">
+         <path sx="36" sy="25" dx="54" dy="26"/>
+         <path sx="54" sy="26" dx="36" dy="25"/>
+    </npc>     
+     <npc x="36" y="27" name="Kid3" imgRef="kid3npc" speed="0.1" direction="WEST">
+         <path sx="36" sy="27" dx="52" dy="31"/>
+         <path sx="52" sy="31" dx="36" dy="27"/>
+    </npc>
+
+   <portal x="7" y="9" name="townhall_left_entrance">
+     <destination place="math_5_1_townhall" name="left_entrance"/>
+   </portal>
+   <portal x="8" y="9" name="townhall_entrance">
+     <destination place="math_5_1_townhall" name="entrance"/>
+   </portal>
+   <portal x="9" y="9" name="townhall_right_entrance">
+     <destination place="math_5_1_townhall" name="right_entrance"/>
+   </portal>  
+
+  <portal x="29" y="9" name="restaurant_entrance">
+   <destination place="math_5_1_restaurant" name="entrance"/>
+  </portal>
+
+  <portal x="51" y="10" name="blacksmith_entrance">
+   <destination place="math_5_1_blacksmith" name="entrance"/>
+  </portal>
+
+  <portal x="57" y="18" name="forest_upper_entrance">
+   <destination place="math_5_1_forest" name="upper_entrance"/>
+  </portal>
+
+  <portal x="57" y="19" name="forest_lower_entrance">
+   <destination place="math_5_1_forest" name="lower_entrance"/>
+  </portal>
+
+  <portal x="11" y="29" name="bank_entrance">
+   <destination place="math_5_1_bank" name="entrance"/>
+  </portal>
+
+  <portal x="14" y="47" name="inn_entrance">
+   <destination place="math_5_1_inn" name="entrance"/>
+  </portal>
+ </place>
+
+ <place name="math_5_1_townhall" file="math5/level_1/townhall.tmx">
+    <npc x="16" y="7" name="Beardman" imgRef="beardmannpc" speed="0.1" direction="SOUTH">
+         <path sx="16" sy="7" dx="14" dy="3"/>
+         <path sx="14" sy="3" dx="24" dy="4"/>
+         <path sx="24" sy="4" dx="24" dy="3"/>
+         <path sx="24" sy="3" dx="24" dy="7"/>
+         <path sx="24" sy="7" dx="16" dy="7"/>         
+    </npc>
+
+    <npc x="6" y="29" name="Recruiter" imgRef="recruiter1npc" speed="0.1" direction="SOUTH">
+         <path sx="6" sy="29" dx="13" dy="25"/>
+         <path sx="13" sy="25" dx="25" dy="29"/>
+         <path sx="25" sy="29" dx="6" dy="29"/>
+    </npc>
+
+    <npc x="7" y="38" name="Doctor" imgRef="doctornpc" speed="0.1" direction="SOUTH">
+         <path sx="7" sy="38" dx="25" dy="38"/>
+         <path sx="25" sy="38" dx="7" dy="38"/>
+    </npc>
+
+    <npc x="11" y="58" name="Youngsoldier" imgRef="youngsoldiernpc" speed="0.1" direction="SOUTH">
+         <path sx="11" sy="58" dx="23" dy="60"/>
+         <path sx="23" sy="60" dx="11" dy="58"/>
+    </npc>
+
+    <portal x="16" y="32" name="game_entrance">
+	  <destination place="math_5_1_townhall" name="game_entrance"/>
+    </portal>
+    
+    <portal x="14" y="62" name="left_entrance">
+     <destination place="math_5_1_village" name="townhall_left_entrance"/>
+    </portal>
+
+    <portal x="15" y="62" name="entrance">
+     <destination place="math_5_1_village" name="townhall_entrance"/>
+    </portal>
+
+    <portal x="16" y="62" name="right_entrance">
+     <destination place="math_5_1_village" name="townhall_right_entrance"/>
+    </portal>
+
+    <portal x="30" y="51" name="storage_entrance">
+     <destination place="math_5_1_townhall_storage" name="entrance"/>
+    </portal>
+   </place>
+
+   <place name="math_5_1_townhall_storage" file="math5/level_1/townhall_storage.tmx">
+    <monster name="rat" x="6" y="3" direction="SOUTH"/>
+    <monster name="rat" x="13" y="5" direction="NORTH"/>
+    <monster name="rat" x="13" y="9" direction="EAST"/>
+    <monster name="rat" x="15" y="7" direction="WEST"/>
+    <food name="cheese" x="4" y="7"/>
+    <food name="cheese" x="6" y="10"/>     
+    <food name="cheese" x="15" y="12"/>        
+    <treasure name="Box 13" x="2" y="2"/>
+    <treasure name="Box 14" x="4" y="2"/>
+    <treasure name="Box 15" x="6" y="2"/>
+    <treasure name="Box 16" x="8" y="2"/>
+    <treasure name="Box 17" x="10" y="2"/>
+    <treasure name="Box 18" x="12" y="2"/>
+    <portal x="1" y="26" name="entrance">
+        <destination place="math_5_1_townhall" name="storage_entrance"/>
+    </portal>       
+   </place>
+
+ <place name="math_5_1_bank" file="math5/level_1/bank.tmx">
+    <npc x="15" y="10" name="Bankclerk" imgRef="man_002_npc" speed="0.1" direction="NORTH">
+         <path sx="15" sy="10" dx="6" dy="13"/>
+         <path sx="6" sy="13" dx="15" dy="10"/>
+         <path sx="15" sy="10" dx="23" dy="13"/>
+         <path sx="23" sy="13" dx="15" dy="10"/>      
+    </npc>
+    <portal x="15" y="18" name="entrance">
+     <destination place="math_5_1_village" name="bank_entrance"/>
+    </portal>
+   </place>
+
+ <place name="math_5_1_restaurant" file="math5/level_1/restaurant.tmx">
+    <npc x="26" y="4" name="Chef" imgRef="chefnpc" speed="0.1" direction="SOUTH">
+         <path sx="26" sy="4" dx="31" dy="3"/>
+         <path sx="31" sy="3" dx="26" dy="4"/>
+    </npc>
+    <npc x="5" y="10" name="Waitress1" imgRef="woman_003_npc" speed="0.1" direction="SOUTH">
+         <path sx="5" sy="10" dx="11" dy="6"/>
+         <path sx="11" sy="6" dx="9" dy="12"/>
+         <path sx="9" sy="12" dx="5" dy="10"/>
+    </npc>
+    <npc x="22" y="12" name="Waitress2" imgRef="woman_003_npc" speed="0.1" direction="SOUTH">
+         <path sx="22" sy="12" dx="26" dy="6"/>
+         <path sx="26" sy="6" dx="29" dy="11"/>
+         <path sx="29" sy="11" dx="22" dy="12"/>
+    </npc>
+    <portal x="16" y="15" name="entrance">
+     <destination place="math_5_1_village" name="restaurant_entrance"/>
+    </portal>
+   </place>
+ <place name="math_5_1_blacksmith" file="math5/level_1/blacksmith.tmx">
+    <npc x="17" y="6" name="Blacksmith" imgRef="blacksmithnpc" speed="0.1" direction="SOUTH">
+         <path sx="17" sy="6" dx="6" dy="2"/>
+         <path sx="6" sy="2" dx="17" dy="6"/>
+    </npc>
+    <npc x="4" y="11" name="Weaponseller" imgRef="weaponsellernpc" speed="0.1" direction="NORTH">
+         <path sx="4" sy="11" dx="3" dy="2"/>
+         <path sx="3" sy="2" dx="4" dy="11"/>
+    </npc>
+    <npc x="10" y="10" name="Buyer" imgRef="buyernpc" speed="0.1" direction="WEST">
+         <path sx="10" sy="10" dx="26" dy="10"/>
+         <path sx="26" sy="10" dx="26" dy="12"/>
+         <path sx="26" sy="12" dx="18" dy="11"/>
+         <path sx="18" sy="11" dx="10" dy="10"/>
+    </npc>
+    <portal x="14" y="13" name="entrance">
+     <destination place="math_5_1_village" name="blacksmith_entrance"/>
+    </portal>
+   </place>
+ <place name="math_5_1_inn" file="math5/level_1/inn.tmx">
+    <npc x="18" y="16" name="Hotelmanager" imgRef="hotelreceptionistnpc" speed="0.1" direction="SOUTH">
+         <path sx="18" sy="16" dx="28" dy="14"/>
+         <path sx="28" sy="14" dx="18" dy="16"/>
+    </npc>
+    <npc x="4" y="13" name="Woman3" imgRef="woman_003_npc" speed="0.1" direction="SOUTH">
+         <path sx="4" sy="14" dx="13" dy="14"/>
+         <path sx="13" sy="14" dx="13" dy="16"/>
+         <path sx="13" sy="16" dx="4" dy="16"/>
+         <path sx="4" sy="16" dx="4" dy="14"/>
+    </npc>
+    <portal x="17" y="18" name="entrance">
+     <destination place="math_5_1_village" name="inn_entrance"/>
+    </portal>
+   </place>
+ <place name="math_5_1_forest" file="math5/level_1/forest.tmx">
+    <monster name="rat" x="4" y="10" direction="SOUTH"/>
+    <monster name="rat" x="15" y="24" direction="NORTH"/>
+    <monster name="rat" x="2" y="24" direction="NORTH"/>
+    <monster name="rat" x="19" y="9" direction="EAST"/>
+    <food name="cheese" x="11" y="6"/>
+    <food name="cheese" x="14" y="19"/>
+    <food name="cheese" x="15" y="14"/>
+    <treasure name="Box 1" x="30" y="8"/>
+    <treasure name="Box 2" x="20" y="24"/>
+    <portal x="0" y="7" name="upper_entrance">
+     <destination place="math_5_1_village" name="forest_upper_entrance"/>
+    </portal>
+    <portal x="0" y="8" name="lower_entrance">
+     <destination place="math_5_1_village" name="forest_lower_entrance"/>
+    </portal>
+   </place>
+</places>

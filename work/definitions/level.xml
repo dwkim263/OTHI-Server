@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE level SYSTEM "level.dtd"> -->
+<levels>
+
+ <!--  Ground level -->
+ 
+ <level number="1" power="10" hp="100" mp="100" exp="100" speed="1.0">
+ </level>
+
+ <level number="2" power="20" hp="200" mp="200" exp="200" speed="1.2">
+ </level>
+
+ <level number="3" power="30" hp="300" mp="300" exp="300" speed="1.4">
+ </level>
+
+ <level number="4" power="40" hp="400" mp="400" exp="400" speed="1.6">
+ </level>
+
+ <level number="5" power="50" hp="500" mp="500" exp="500" speed="1.8">
+ </level>
+</levels>

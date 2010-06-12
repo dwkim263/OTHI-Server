@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE armors SYSTEM "armors.dtd"> -->
+<armors>
+	<armor name="Barbarian armor" file="sprites/items/armor/barbarian_armor.png"/>
+	<armor name="Black armor" file="sprites/items/armor/black_armor.png"/>
+	<armor name="Chain armor" file="sprites/items/armor/chain_armor.png"/>
+	<armor name="Chaos armor" file="sprites/items/armor/chaos_armor.png"/>
+	<armor name="Dress" file="sprites/items/armor/dress.png"/>
+	<armor name="Dust robe" file="sprites/items/armor/dust_robe.png"/>
+	<armor name="Dwarvish armor" file="sprites/items/armor/dwarvish_armor.png"/>
+	<armor name="Earth robe" file="sprites/items/armor/earth_robe.png"/>
+	<armor name="Elvish armor" file="sprites/items/armor/elvish_armor.png"/>
+	<armor name="Enhanced chainmail" file="sprites/items/armor/enhanced_chainmail.png"/>
+	<armor name="Enhanced iron cuirass" file="sprites/items/armor/enhanced_iron_cuirass.png"/>
+	<armor name="Enhanced leather cuirass" file="sprites/items/armor/enhanced_leather_cuirass.png"/>
+	<armor name="Fire robe" file="sprites/items/armor/fire_robe.png"/>
+	<armor name="Golden armor" file="sprites/items/armor/golden_armor.png"/>
+	<armor name="Golden chainmail" file="sprites/items/armor/golden_chainmail.png"/>
+	<armor name="Ice armor" file="sprites/items/armor/ice_armor.png"/>
+	<armor name="Iron scale armor" file="sprites/items/armor/iron_scale_armor.png"/>
+	<armor name="Leather armor" file="sprites/items/armor/leather_armor.png"/>
+	<armor name="Leather cuirass" file="sprites/items/armor/leather_cuirass.png"/>
+	<armor name="Leather scale armor" file="sprites/items/armor/leather_scale_armor.png"/>
+	<armor name="Magic plate armor" file="sprites/items/armor/magic_plate_armor.png"/>
+	<armor name="Plate armor" file="sprites/items/armor/plate_armor.png"/>
+	<armor name="Scale armor" file="sprites/items/armor/scale_armor.png"/>
+	<armor name="Shadow armor" file="sprites/items/armor/shadow_armor.png"/>
+	<armor name="Stone armor" file="sprites/items/armor/stone_armor.png"/>
+	<armor name="Studded armor" file="sprites/items/armor/studded_armor.png"/>
+	<armor name="Water robe" file="sprites/items/armor/water_robe.png"/>
+	<armor name="Wind robe" file="sprites/items/armor/wind_robe.png"/>
+</armors>
+
+

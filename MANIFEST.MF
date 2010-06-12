@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 14.0-b16 (Sun Microsystems Inc.)
+Built-By: steve
+Main-Class: com.sun.sgs.impl.kernel.Kernel
+Implementation-Version: 1.00-b200
+Built-Date: 2010-06-09 22:48:05
+Class-Path: lib/DarkstarProfileListener-0.0.5.jar lib/db-4.5.20.jar li
+ b/je-3.3.75.jar lib/mysql-connector-java-5.1.7-bin.jar lib/sgs-server
+ -0.10.1.jar lib/sgs-server-api-0.10.1.jar lib/sgs-server-internal-api
+ -0.10.1.jar lib/sgs-shared-1.12.jar lib/ws-commons-util-1.0.2.jar lib
+ /xmlrpc-client-3.1.jar lib/xmlrpc-common-3.1.jar
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="THGServer" default="deploy" basedir=".">
+	<property name="build.dir" location="build" />	
+	<property name="build.lib.dir" location="${build.dir}/lib" />	
+	<property name="build.classes.dir" location="${build.dir}/classes"/>
+	<property name="src.dir" location="src" />
+	<property name="dist.dir" location="dist" />	
+	<property name="dist.javadoc.dir" location="${dist.dir}/javadoc"/>		
+	<property name="dist.lib.dir" location="${dist.dir}/lib" />	
+		
+    <path id="project.classpath">
+          <pathelement location="${build.classes.dir}" />
+          <fileset dir="${build.lib.dir}" id="build.lib.files">
+                 <include name="*.jar" />
+          </fileset>
+    </path>	
+
+    <target name="compile" depends="clean">
+        <mkdir dir="${build.classes.dir}" />        	
+        <javac srcdir="${src.dir}" destdir="${build.classes.dir}" 
+        	 debug="true" debuglevel="lines, vars, and source" >
+        	<classpath  refid="project.classpath"/>
+        </javac> 	  	    	
+    </target>
+
+	<target name="jar" depends="compile">
+        <mkdir dir="${dist.dir}" />   		
+	    <mkdir dir="${dist.lib.dir}" />   		
+		<property name="version.num" value="1.00"/>
+		<buildnumber file="${build.dir}/build.num" />
+		<tstamp>
+				<format property="TODAY" pattern="yyyy-MM-dd HH:mm:ss" />
+		</tstamp>			
+				
+		<pathconvert property="mf.classpath" pathsep=" " refid="build.lib.files" >
+			 	<chainedmapper>
+				    <flattenmapper/>
+				    <globmapper from="*" to="lib/*" />
+			  	</chainedmapper>
+		</pathconvert>
+
+		<manifest file="MANIFEST.MF">
+				<attribute name="Built-By" value="${user.name}"/>
+		      	<attribute name="Main-Class" value="com.sun.sgs.impl.kernel.Kernel"/>
+		      	<attribute name="Implementation-Version" value="${version.num}-b${build.number}"/>   
+		      	<attribute name="Built-Date" value="${TODAY}"/>  
+		      	<attribute name="Class-Path" value="${mf.classpath}" />		   	
+		</manifest>
+		
+		<jar 	destfile="${dist.dir}/${ant.project.name}.jar" 
+				basedir="${build.classes.dir}" 
+				manifest="MANIFEST.MF" >			
+	    	<zipfileset dir="${basedir}/conf" includes="**/app.properties"	prefix="META-INF"/>
+		</jar>
+	</target>
+	
+    <target name="deploy" depends="jar">	 	
+		<copy todir="${dist.lib.dir}">
+	    	<fileset dir="${build.lib.dir}"/>		
+		</copy> 	
+	</target>	
+	
+ <!--   <target name="all" depends="deploy" >
+        <mkdir dir="${dist.javadoc.dir}" />      	
+     	<javadoc sourcepath="${src.dir}" destdir="${dist.javadoc.dir}" />
+    </target> 
+-->
+	<target name="clean">
+		<delete dir="${dist.dir}" />
+		<delete dir="${build.classes.dir}" />
+	</target>	
+</project>

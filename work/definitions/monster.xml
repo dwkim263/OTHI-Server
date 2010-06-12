@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+    <monster name="babybear" file="sprites/monsters/animal/babybear.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Babybear"/>
+    </monster>
+    <monster name="bat" file="sprites/monsters/animal/bat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Bat"/>
+    </monster>            
+    <monster name="bear" file="sprites/monsters/animal/bear.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Bear"/>        
+    </monster>            
+    <monster name="black_bear" file="sprites/monsters/animal/black_bear.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlackBear"/>        
+    </monster>            
+    <monster name="black_slime" file="sprites/monsters/animal/black_slime.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlackSlime"/>        
+    </monster>            
+    <monster name="boar" file="sprites/monsters/animal/boar.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Boar"/>        
+    </monster>            
+    <monster name="brown_slime" file="sprites/monsters/animal/brown_slime.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BrownSlime"/>        
+    </monster>            
+    <monster name="caiman" file="sprites/monsters/animal/caiman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Caiman"/>        
+    </monster>            
+    <monster name="cobra" file="sprites/monsters/animal/cobra.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Cobra"/>        
+    </monster>            
+    <monster name="crab" file="sprites/monsters/animal/crab.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Crab"/>        
+    </monster>            
+    <monster name="deer" file="sprites/monsters/animal/deer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Deer"/>        
+    </monster>            
+    <monster name="dog" file="sprites/monsters/animal/dog.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Dog"/>        
+    </monster>            
+    <monster name="elephant" file="sprites/monsters/animal/elephant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Elephant"/>        
+    </monster>            
+    <monster name="green_slime" file="sprites/monsters/animal/green_slime.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GreenSlime"/>        
+    </monster>            
+    <monster name="killer_bat" file="sprites/monsters/animal/killer_bat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.KillerBat"/>        
+    </monster>            
+    <monster name="lion" file="sprites/monsters/animal/lion.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Lion"/>        
+    </monster>            
+    <monster name="monkey" file="sprites/monsters/animal/monkey.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Monkey"/>        
+    </monster>            
+    <monster name="pandabear" file="sprites/monsters/animal/pandabear.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.PandaBear"/>        
+    </monster>            
+    <monster name="penguin" file="sprites/monsters/animal/penguin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Penguin"/>        
+    </monster>            
+    <monster name="pigeon" file="sprites/monsters/animal/pigeon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Pigeon"/>        
+    </monster>            
+    <monster name="poisonous_spider" file="sprites/monsters/animal/poisonous_spider.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.PoisonousSpider"/>        
+    </monster>        
+    <monster name="spider" file="sprites/monsters/animal/spider.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Spider"/>        
+    </monster>            
+    <monster name="tiger" file="sprites/monsters/animal/tiger.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Tiger"/>        
+    </monster>            
+    <monster name="wolf" file="sprites/monsters/animal/wolf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Wolf"/>        
+    </monster>            
+    <monster name="beholder" file="sprites/monsters/beholder/beholder.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Beholder"/>        
+    </monster>            
+    <monster name="elder_beholder" file="sprites/monsters/beholder/elder_beholder.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderBeholder"/>        
+    </monster>            
+    <monster name="young_beholder" file="sprites/monsters/beholder/young_beholder.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.YoungBeholder"/>        
+    </monster>            
+    <monster name="treant" file="sprites/monsters/boss/treant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Treant"/>        
+    </monster>            
+    <monster name="chaos_commander" file="sprites/monsters/chaos/chaos_commander.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosCommander"/>        
+    </monster>            
+    <monster name="chaos_dragonrider" file="sprites/monsters/chaos/chaos_dragonrider.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosDragonrider"/>        
+    </monster>            
+    <monster name="chaos_lord" file="sprites/monsters/chaos/chaos_lord.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosLord"/>        
+    </monster>            
+    <monster name="chaos_overlord" file="sprites/monsters/chaos/chaos_overlord.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosOverlord"/>        
+    </monster>            
+    <monster name="chaos_soldier" file="sprites/monsters/chaos/chaos_soldier.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosSoldier"/>        
+    </monster>            
+    <monster name="chaos_warrior" file="sprites/monsters/chaos/chaos_warrior.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosWarrior"/>        
+    </monster>            
+    <monster name="baby_drow" file="sprites/monsters/dark_elf/baby_drow.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BabyDrow"/>        
+    </monster>            
+    <monster name="dark_elf" file="sprites/monsters/dark_elf/dark_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElf"/>        
+    </monster>            
+    <monster name="dark_elf_archer" file="sprites/monsters/dark_elf/dark_elf_archer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfArcher"/>        
+    </monster>            
+    <monster name="dark_elf_captain" file="sprites/monsters/dark_elf/dark_elf_captain.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfCaptain"/>        
+    </monster>            
+    <monster name="dark_elf_elite_archer" file="sprites/monsters/dark_elf/dark_elf_elite_archer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfEliteArcher"/>        
+    </monster>        
+    <monster name="dark_elf_general" file="sprites/monsters/dark_elf/dark_elf_general.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArkElfGeneral"/>        
+    </monster>            
+    <monster name="dark_elf_knight" file="sprites/monsters/dark_elf/dark_elf_knight.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfKnight"/>        
+    </monster>            
+    <monster name="dark_elf_matronmother" file="sprites/monsters/dark_elf/dark_elf_matronmother.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfMatronmother"/>
+    </monster>            
+    <monster name="dark_elf_ranger" file="sprites/monsters/dark_elf/dark_elf_ranger.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfRanger"/>        
+    </monster>            
+    <monster name="dark_elf_sacerdotist" file="sprites/monsters/dark_elf/dark_elf_sacerdotist.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfSacerdotist"/>        
+    </monster>    
+    <monster name="dark_elf_viceroy" file="sprites/monsters/dark_elf/dark_elf_viceroy.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfViceroy"/>        
+    </monster>            
+    <monster name="dark_elf_wizard" file="sprites/monsters/dark_elf/dark_elf_wizard.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkElfWizard"/>        
+    </monster>            
+    <monster name="imp" file="sprites/monsters/demon/imp.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Imp"/>        
+    </monster>            
+    <monster name="duergar" file="sprites/monsters/dwarf/duergar.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Duergar"/>        
+    </monster>            
+    <monster name="duergar_axe" file="sprites/monsters/dwarf/duergar_axe.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarAxe"/>        
+    </monster>            
+    <monster name="duergar_black" file="sprites/monsters/dwarf/duergar_black.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarBlack"/>        
+    </monster>            
+    <monster name="duergar_elder" file="sprites/monsters/dwarf/duergar_elder.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarElder"/>        
+    </monster>            
+    <monster name="duergar_elite" file="sprites/monsters/dwarf/duergar_elite.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarElite"/>        
+    </monster>            
+    <monster name="duergar_hero" file="sprites/monsters/dwarf/duergar_hero.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarHero"/>        
+    </monster>            
+    <monster name="duergar_king" file="sprites/monsters/dwarf/duergar_king.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarKing"/>        
+    </monster>            
+    <monster name="duergar_wizard" file="sprites/monsters/dwarf/duergar_wizard.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DuergarWizard"/>        
+    </monster>            
+    <monster name="dwarf" file="sprites/monsters/dwarf/dwarf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Dwarf"/>        
+    </monster>            
+    <monster name="dwarf_guardian" file="sprites/monsters/dwarf/dwarf_guardian.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DwarfGuardian"/>        
+    </monster>            
+    <monster name="elder_dwarf" file="sprites/monsters/dwarf/elder_dwarf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderDwarf"/>        
+    </monster>            
+    <monster name="hero_dwarf" file="sprites/monsters/dwarf/hero_dwarf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.HeroDwarf"/>        
+    </monster>            
+    <monster name="leader_dwarf" file="sprites/monsters/dwarf/leader_dwarf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.LeaderDwarf"/>        
+    </monster>            
+    <monster name="djinn" file="sprites/monsters/elemental/djinn.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Djinn"/>        
+    </monster>            
+    <monster name="earth_elemental" file="sprites/monsters/elemental/earth_elemental.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.EarthElemental"/>        
+    </monster>            
+    <monster name="fire_elemental" file="sprites/monsters/elemental/fire_elemental.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.FireElemental"/>        
+    </monster>            
+    <monster name="water_elemental" file="sprites/monsters/elemental/water_elemental.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.WaterElemental"/>        
+    </monster>            
+    <monster name="archer_elf" file="sprites/monsters/elf/archer_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArcherElf"/>        
+    </monster>            
+    <monster name="archmage_elf" file="sprites/monsters/elf/archmage_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArchmageElf"/>        
+    </monster>            
+    <monster name="commander_elf" file="sprites/monsters/elf/commander_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.CommanderElf"/>        
+    </monster>            
+    <monster name="elf" file="sprites/monsters/elf/elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Elf"/>        
+    </monster>            
+    <monster name="elf_sacerdotist" file="sprites/monsters/elf/elf_sacerdotist.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElfSacerdotist"/>        
+    </monster>            
+    <monster name="mage_elf" file="sprites/monsters/elf/mage_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.MageElf"/>        
+    </monster>            
+    <monster name="militia_elf" file="sprites/monsters/elf/militia_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.MilitiaElf"/>        
+    </monster>            
+    <monster name="soldier_elf" file="sprites/monsters/elf/soldier_elf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierElf"/>        
+    </monster>            
+    <monster name="balrog" file="sprites/monsters/enormous_creature/balrog.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Balrog"/>        
+    </monster>            
+    <monster name="caped_frogman" file="sprites/monsters/frogman/caped_frogman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.CapedFrogman"/>        
+    </monster>            
+    <monster name="frogman" file="sprites/monsters/frogman/frogman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Frogman"/>        
+    </monster>            
+    <monster name="wizard_frogman" file="sprites/monsters/frogman/wizard_frogman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.WizardFrogman"/>        
+    </monster>            
+    <monster name="dark_gargoyle" file="sprites/monsters/gargoyle/dark_gargoyle.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkGargoyle"/>        
+    </monster>            
+    <monster name="elder_gargoyle" file="sprites/monsters/gargoyle/elder_gargoyle.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderGargoyle"/>        
+    </monster>            
+    <monster name="gargoyle" file="sprites/monsters/gargoyle/gargoyle.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Gargoyle"/>        
+    </monster>            
+    <monster name="venom_gargoyle" file="sprites/monsters/gargoyle/venom_gargoyle.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VenomGargoyle"/>        
+    </monster>            
+    <monster name="cyclops" file="sprites/monsters/giant/cyclops.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Cyclops"/>        
+    </monster>            
+    <monster name="elder_ogre" file="sprites/monsters/giant/elder_ogre.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderOgre"/>        
+    </monster>            
+    <monster name="ogre" file="sprites/monsters/giant/ogre.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Ogre"/>        
+    </monster>            
+    <monster name="ogre_soldier" file="sprites/monsters/giant/ogre_soldier.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.OgreSoldier"/>        
+    </monster>            
+    <monster name="superogre" file="sprites/monsters/giant/superogre.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Superogre"/>        
+    </monster>            
+    <monster name="crocodile" file="sprites/monsters/giant_animal/crocodile.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Crocodile"/>        
+    </monster>            
+    <monster name="giantrat" file="sprites/monsters/giant_animal/giantrat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Giantrat"/>        
+    </monster>            
+    <monster name="angel" file="sprites/monsters/giant_human/angel.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Angel"/>        
+    </monster>            
+    <monster name="black_giant" file="sprites/monsters/giant_human/black_giant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlackGiant"/>        
+    </monster>            
+    <monster name="dwarf_golem" file="sprites/monsters/giant_human/dwarf_golem.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DwarfGolem"/>        
+    </monster>            
+    <monster name="giant" file="sprites/monsters/giant_human/giant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Giant"/>        
+    </monster>            
+    <monster name="giant_elder" file="sprites/monsters/giant_human/giant_elder.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GiantElder"/>        
+    </monster>            
+    <monster name="ice_giant" file="sprites/monsters/giant_human/ice_giant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.IceGiant"/>        
+    </monster>            
+    <monster name="gnome" file="sprites/monsters/gnome/gnome.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Gnome"/>        
+    </monster>            
+    <monster name="woman_gnome" file="sprites/monsters/gnome/woman_gnome.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.WomanGnome"/>        
+    </monster>            
+    <monster name="goblin" file="sprites/monsters/goblin/goblin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Goblin"/>        
+    </monster>            
+    <monster name="soldier_goblin" file="sprites/monsters/goblin/soldier_goblin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierGoblin"/>        
+    </monster>            
+    <monster name="veteran_goblin" file="sprites/monsters/goblin/veteran_goblin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VeteranGoblin"/>        
+    </monster>            
+    <monster name="stone_golem" file="sprites/monsters/golem/stone_golem.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.StoneGolem"/>        
+    </monster>            
+    <monster name="wooden_golem" file="sprites/monsters/golem/wooden_golem.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.WoodenGolem"/>        
+    </monster>            
+    <monster name="black_death" file="sprites/monsters/huge_animal/black_death.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlackDeath"/>        
+    </monster>            
+    <monster name="blue_dragon" file="sprites/monsters/huge_animal/blue_dragon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlueDragon"/>        
+    </monster>            
+    <monster name="bone_dragon" file="sprites/monsters/huge_animal/bone_dragon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BoneDragon"/>        
+    </monster>            
+    <monster name="chaos_green_dragonrider" file="sprites/monsters/huge_animal/chaos_green_dragonrider.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ChaosGreenDragonrider"/>
+    </monster>            
+    <monster name="giant_dwarf" file="sprites/monsters/huge_animal/giant_dwarf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GiantDwarf"/>        
+    </monster>            
+    <monster name="giant_kobold" file="sprites/monsters/huge_animal/giant_kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GiantKobold"/>        
+    </monster>            
+    <monster name="giant_spider" file="sprites/monsters/huge_animal/giant_spider.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GiantSpider"/>        
+    </monster>            
+    <monster name="green_dragon" file="sprites/monsters/huge_animal/green_dragon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GreenDragon"/>        
+    </monster>            
+    <monster name="red_dragon" file="sprites/monsters/huge_animal/red_dragon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RedDragon"/>        
+    </monster>            
+    <monster name="thing" file="sprites/monsters/huge_animal/thing.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Thing"/>        
+    </monster>            
+    <monster name="armored_warrior" file="sprites/monsters/human/armored_warrior.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArmoredWarrior"/>        
+    </monster>            
+    <monster name="armorer_leader" file="sprites/monsters/human/armorer_leader.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArmorerLeader"/>        
+    </monster>            
+    <monster name="assassin" file="sprites/monsters/human/assassin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Assassin"/>        
+    </monster>            
+    <monster name="bandit" file="sprites/monsters/human/bandit.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Bandit"/>        
+    </monster>            
+    <monster name="barbarian" file="sprites/monsters/human/barbarian.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Barbarian"/>        
+    </monster>            
+    <monster name="barbarian_chaman" file="sprites/monsters/human/barbarian_chaman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianChaman"/>        
+    </monster>            
+    <monster name="barbarian_elite" file="sprites/monsters/human/barbarian_elite.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianElite"/>
+    </monster>            
+    <monster name="barbarian_king" file="sprites/monsters/human/barbarian_king.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianKing"/>        
+    </monster>            
+    <monster name="barbarian_leader" file="sprites/monsters/human/barbarian_leader.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianLeader"/>        
+    </monster>    
+    <monster name="barbarian_priest" file="sprites/monsters/human/barbarian_priest.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianPriest"/>        
+    </monster>            
+    <monster name="barbarian_wolf" file="sprites/monsters/human/barbarian_wolf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BarbarianWolf"/>        
+    </monster>            
+    <monster name="cannibal" file="sprites/monsters/human/cannibal.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Cannibal"/>        
+    </monster>            
+    <monster name="cannibalwoman" file="sprites/monsters/human/cannibalwoman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Cannibalwoman"/>        
+    </monster>            
+    <monster name="darkmonk" file="sprites/monsters/human/darkmonk.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DarkMonk"/>        
+    </monster>            
+    <monster name="elder_cannibal" file="sprites/monsters/human/elder_cannibal.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderCannibal"/>        
+    </monster>            
+    <monster name="hunter" file="sprites/monsters/human/hunter.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Hunter"/>        
+    </monster>            
+    <monster name="littlefairy" file="sprites/monsters/human/littlefairy.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Littlefairy"/>        
+    </monster>            
+    <monster name="littlewizard" file="sprites/monsters/human/littlewizard.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Littlewizard"/>        
+    </monster>            
+    <monster name="monk" file="sprites/monsters/human/monk.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Monk"/>        
+    </monster>            
+    <monster name="risecia_archer" file="sprites/monsters/human/risecia_archer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RiseciaArcher"/>        
+    </monster>            
+    <monster name="risecia_leader" file="sprites/monsters/human/risecia_leader.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RiseciaLeader"/>        
+    </monster>            
+    <monster name="risecia_swordsman" file="sprites/monsters/human/risecia_swordsman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RiseciaSwordsman"/>        
+    </monster>            
+    <monster name="risecia_thug" file="sprites/monsters/human/risecia_thug.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RiseciaThug"/>        
+    </monster>            
+    <monster name="shadows_assassin" file="sprites/monsters/human/shadows_assassin.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ShadowsAssassin"/>        
+    </monster>            
+    <monster name="soldier_archer" file="sprites/monsters/human/soldier_archer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierArcher"/>        
+    </monster>            
+    <monster name="soldier_colonel" file="sprites/monsters/human/soldier_colonel.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierColonel"/>        
+    </monster>            
+    <monster name="soldier_common" file="sprites/monsters/human/soldier_common.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierCommon"/>        
+    </monster>            
+    <monster name="soldier_elite_archer" file="sprites/monsters/human/soldier_elite_archer.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierEliteArcher"/>        
+    </monster>            
+    <monster name="soldier_general" file="sprites/monsters/human/soldier_general.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierGeneral"/>        
+    </monster>            
+    <monster name="soldier_knight" file="sprites/monsters/human/soldier_knight.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierKnight"/>        
+    </monster>            
+    <monster name="soldier_lieutenant" file="sprites/monsters/human/soldier_lieutenant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierLieutenant"/>        
+    </monster>            
+    <monster name="soldier_sergeant" file="sprites/monsters/human/soldier_sergeant.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierSergeant"/>        
+    </monster>            
+    <monster name="soldier_wizard" file="sprites/monsters/human/soldier_wizard.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierSergeant"/>        
+    </monster>            
+    <monster name="archer_kobold" file="sprites/monsters/kobold/archer_kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArcherKobold"/>        
+    </monster>            
+    <monster name="kobold" file="sprites/monsters/kobold/kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Kobold"/>        
+    </monster>            
+    <monster name="leader_kobold" file="sprites/monsters/kobold/leader_kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.LeaderKobold"/>        
+    </monster>    
+    <monster name="soldier_kobold" file="sprites/monsters/kobold/soldier_kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.SoldierKobold"/>        
+    </monster>            
+    <monster name="veteran_kobold" file="sprites/monsters/kobold/veteran_kobold.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VeteranKobold"/>        
+    </monster>            
+    <monster name="minotaur" file="sprites/monsters/minotaur/minotaur.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Minotaur"/>        
+    </monster>            
+    <monster name="mino_king" file="sprites/monsters/minotaur/mino_king.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.MinoKing"/>        
+    </monster>            
+    <monster name="mummy" file="sprites/monsters/mummy/mummy.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Mummy"/>        
+    </monster>            
+    <monster name="royal_mummy" file="sprites/monsters/mummy/royal_mummy.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RoyalMummy"/>        
+    </monster>            
+    <monster name="armed_naga" file="sprites/monsters/mutant/armed_naga.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArmedNaga"/>        
+    </monster>            
+    <monster name="blacky" file="sprites/monsters/mutant/blacky.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Blacky"/>        
+    </monster>            
+    <monster name="glow_monster" file="sprites/monsters/mutant/glow_monster.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.GlowMonster"/>        
+    </monster>            
+    <monster name="high_naga" file="sprites/monsters/mutant/high_naga.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.HighNaga"/>        
+    </monster>            
+    <monster name="naga" file="sprites/monsters/mutant/naga.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Naga"/>        
+    </monster>            
+    <monster name="werewolf" file="sprites/monsters/mutant/werewolf.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Werewolf"/>        
+    </monster>            
+    <monster name="black_dragon" file="sprites/monsters/mythical_animal/black_dragon.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BlackDragon"/>        
+    </monster>            
+    <monster name="orc" file="sprites/monsters/orc/orc.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Orc"/>        
+    </monster>            
+    <monster name="orc_chief" file="sprites/monsters/orc/orc_chief.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.OrcChief"/>        
+    </monster>            
+    <monster name="orc_hunter" file="sprites/monsters/orc/orc_hunter.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.OrcHunter"/>        
+    </monster>            
+    <monster name="orc_warrior" file="sprites/monsters/orc/orc_warrior.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.OrcWarrior"/>
+    </monster>            
+    <monster name="archrat" file="sprites/monsters/ratfolk/archrat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Archrat"/>
+    </monster>            
+    <monster name="ratman" file="sprites/monsters/ratfolk/ratman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Ratman"/>
+    </monster>            
+    <monster name="ratwoman" file="sprites/monsters/ratfolk/ratwoman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Ratwoman"/>
+    </monster>            
+    <monster name="armored_sheepman" file="sprites/monsters/sheepman/armored_sheepman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ArmoredSheepman"/>
+    </monster>            
+    <monster name="elder_sheepman" file="sprites/monsters/sheepman/elder_sheepman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderSheepman"/>
+    </monster>            
+    <monster name="elite_sheepman" file="sprites/monsters/sheepman/elite_sheepman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.EliteSheepman"/>
+    </monster>            
+    <monster name="sheepman" file="sprites/monsters/sheepman/sheepman.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Sheepman"/>
+    </monster>            
+    <monster name="caverat" file="sprites/monsters/small_animal/caverat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Caverat"/>
+    </monster>            
+    <monster name="rat" file="sprites/monsters/small_animal/rat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="0.2"/>
+        <implement class="othi.thg.server.obstacles.monsters.Rat"/>
+    </monster>            
+    <monster name="razorrat" file="sprites/monsters/small_animal/razorrat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Razorrat"/>
+    </monster>            
+    <monster name="venomrat" file="sprites/monsters/small_animal/venomrat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Venomrat"/>
+    </monster>            
+    <monster name="zombierat" file="sprites/monsters/small_animal/zombierat.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Zombierat"/>
+    </monster>            
+    <monster name="troll" file="sprites/monsters/troll/troll.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Troll"/>
+    </monster>        
+    <monster name="bloody_zombie" file="sprites/monsters/undead/bloody_zombie.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.BloodyZombie"/>
+    </monster>            
+    <monster name="dead_lich" file="sprites/monsters/undead/dead_lich.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DeadLich"/>
+    </monster>            
+    <monster name="death" file="sprites/monsters/undead/death.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Death"/>
+    </monster>            
+    <monster name="death_knight" file="sprites/monsters/undead/death_knight.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DeathKnight"/>
+    </monster>            
+    <monster name="demon_skeleton" file="sprites/monsters/undead/demon_skeleton.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DemonSkeleton"/>
+    </monster>            
+    <monster name="devil_queen" file="sprites/monsters/undead/devil_queen.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.DevilQueen"/>
+    </monster>            
+    <monster name="elder_skeleton" file="sprites/monsters/undead/elder_skeleton.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.ElderSkeleton"/>
+    </monster>            
+    <monster name="fallen_high_priest" file="sprites/monsters/undead/fallen_high_priest.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.FallenHighPriest"/>
+    </monster>            
+    <monster name="fallen_priest" file="sprites/monsters/undead/fallen_priest.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.FallenPriest"/>
+    </monster>            
+    <monster name="fallen_warrior" file="sprites/monsters/undead/fallen_warrior.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.FallenWarrior"/>
+    </monster>            
+    <monster name="ghost" file="sprites/monsters/undead/ghost.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Ghost"/>
+    </monster>            
+    <monster name="headless_monster" file="sprites/monsters/undead/headless_monster.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.HeadlessMonster"/>
+    </monster>            
+    <monster name="high_lich" file="sprites/monsters/undead/high_lich.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.HighLich"/>
+    </monster>            
+    <monster name="incorporeal_armor" file="sprites/monsters/undead/incorporeal_armor.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.IncorporealArmor"/>
+    </monster>            
+    <monster name="invisible_man" file="sprites/monsters/undead/invisible_man.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.InvisibleMan"/>
+    </monster>            
+    <monster name="lich" file="sprites/monsters/undead/lich.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Lich"/>
+    </monster>            
+    <monster name="rotten_zombie" file="sprites/monsters/undead/rotten_zombie.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.RottenZombie"/>
+    </monster>            
+    <monster name="skeleton" file="sprites/monsters/undead/skeleton.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Skeleton"/>
+    </monster>            
+    <monster name="warrior_skeleton" file="sprites/monsters/undead/warrior_skeleton.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.WarriorSkeleton"/>
+    </monster>            
+    <monster name="zombie" file="sprites/monsters/undead/zombie.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Zombie"/>
+    </monster>            
+    <monster name="vampirette" file="sprites/monsters/vampire/vampirette.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.Vampirette"/>
+    </monster>            
+    <monster name="vampirette_evil" file="sprites/monsters/vampire/vampirette_evil.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampiretteEvil"/>
+    </monster>            
+    <monster name="vampirette_transformation" file="sprites/monsters/vampire/vampirette_transformation.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampiretteTransformation"/>
+    </monster>            
+    <monster name="vampire_lord" file="sprites/monsters/vampire/vampire_lord.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampireLord"/>
+    </monster>            
+    <monster name="vampire_lord_bride" file="sprites/monsters/vampire/vampire_lord_bride.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampireLordBride"/>
+    </monster>            
+    <monster name="vampire_lord_bride_evil" file="sprites/monsters/vampire/vampire_lord_bride_evil.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampireLordBrideEvil"/>
+    </monster>            
+    <monster name="vampire_lord_evil" file="sprites/monsters/vampire/vampire_lord_evil.png">
+        <competence level="1" hp="100" mp="0" power="10" speed="1.0"/>
+        <implement class="othi.thg.server.obstacles.monsters.VampireLordEvil"/>
+    </monster>            
+</monsters>
