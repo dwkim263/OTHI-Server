@@ -45,7 +45,7 @@
  <tileset name="portal" firstgid="132" tilewidth="32" tileheight="32">
   <image source="tileset/logic/portal.png"/>
  </tileset>
- <layer name="0_floor" width="30" height="20">/home/steve/workspace/THGServer/work/maps
+ <layer name="0_floor" width="30" height="20">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAONhYGBgojPmBmIWIJYBYgk6YWkgZobaKwbEBnTCoqP20t1eKSAWR8JKVLRHEc1sSSR70dOzChXtVWYYTc+j8Tsav6PxO/zilxhsCMRGQGxMoj5Y/HIBMSMZ2AqIrYHYhgy9nEAMANgK7JRgCQAA
   </data>

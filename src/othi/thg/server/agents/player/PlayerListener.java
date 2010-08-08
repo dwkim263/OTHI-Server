@@ -479,7 +479,7 @@ public class PlayerListener implements ManagedObject, Serializable, ClientSessio
 				}
 							
 				@Override				
-		        public void commandAddPortal(int id, int placeId, String portalName, float x, float y){
+		        public void commandAddPortal(int id, int placeId, String portalName, float x, float y, int isOneWay){
 		        					
 		        }
 		        

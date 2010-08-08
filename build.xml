@@ -18,7 +18,7 @@
     <target name="compile" depends="clean">
         <mkdir dir="${build.classes.dir}" />        	
         <javac srcdir="${src.dir}" destdir="${build.classes.dir}" 
-        	 debug="true" debuglevel="lines, vars, and source" >
+        	 debug="true" debuglevel="lines,vars,source">
         	<classpath  refid="project.classpath"/>
         </javac> 	  	    	
     </target>
@@ -26,7 +26,7 @@
 	<target name="jar" depends="compile">
         <mkdir dir="${dist.dir}" />   		
 	    <mkdir dir="${dist.lib.dir}" />   		
-		<property name="version.num" value="1.00"/>
+		<property name="version.num" value="0.02"/>
 		<buildnumber file="${build.dir}/build.num" />
 		<tstamp>
 				<format property="TODAY" pattern="yyyy-MM-dd HH:mm:ss" />

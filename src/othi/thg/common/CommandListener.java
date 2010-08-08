@@ -86,7 +86,7 @@ public interface CommandListener {
 
         void commandPortal(int id, int placeId, String portalName);
         
-        void commandAddPortal(int id, int placeId, String portalName, float x, float y);
+        void commandAddPortal(int id, int placeId, String portalName, float x, float y, int isOneWay);
         
         void commandScore(int id, int score);
         

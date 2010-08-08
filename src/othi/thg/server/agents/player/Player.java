@@ -239,10 +239,14 @@ public class Player extends Playable {
 
 		while (bindingName != null && bindingName.startsWith(binding)) {
 			Portal portal = (Portal) dm.getBinding(bindingName);	
+			int isOneWay = 0;
+			if (portal.getDestPortalName().equals(portal.getName())) {
+				isOneWay = 1;
+			}
 			getPlayerListener(getName()).sendMove(
 					Commands.addPortalCommand(
 							portal.getId(), placeId, portal.getName(),
-							portal.getPosX(), portal.getPosY()));
+							portal.getPosX(), portal.getPosY(), isOneWay));
 			bindingName = dm.nextBoundName(bindingName);
 		} 	
 	}	
